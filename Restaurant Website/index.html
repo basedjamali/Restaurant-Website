@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JamEats</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Background Image -->
+    <div class="bg-image"><img src="https://images.pexels.com/photos/239581/pexels-photo-239581.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="image"></div>
+
+    <!-- Heading -->
+    <div class="para-head">
+        <h1 class="heading"><u class="underline">JamEats</u></h1>
+        <p class="description1">Oriental food with excellent spices and sauces. Cooked by the best chefs from Europe. Come to JamEats and experience a taste explosion which you have never had before!</p>
+    </div>
+
+    <!-- Often ordered -->
+    <h2 class="sub-head1"><u class="ul2">Often ordered</u></h2>
+
+    <!-- Menu 1 -->
+    <div class="icon-text1">
+        <img src="tacos.png" alt="Taco" class="icon1">
+        <p class="kebab"><u class="ul">Kebab</u></p>
+        <p class="description2">A kebab with salad, meat, feta cheese and spicy garlic sauce for only $4.50!</p>
+    </div>
+
+    <!-- Menu 2 -->
+    <div class="icon-text2">
+        <img src="rice.png" alt="Rice" class="icon2">
+        <p class="rice"><u class="ul">Rice</u></p>
+        <p class="description3">Well cooked rice with crispy chicken, salad and Indian curry sauce for only $4!</p>
+    </div>
+
+    <!-- Menu 3 -->
+    <div class="icon-text3">
+        <img src="baklava.png" alt="Baklava" class="icon3">
+        <p class="baklava"><u class="ul">Baklava</u></p>
+        <p class="description4">Sweet baklava with delicate flavor and small hazelnuts for only $30 (1kg)!</p>
+    </div>
+
+    <!-- Menu 4 -->
+    <div class="icon-text4">
+        <img src="burger.png" alt="Burger" class="icon4">
+        <p class="burger"><u class="ul">Burger</u></p>
+        <p class="description5">A big burger with meat, lettuce, cheese and yogurt sauce for only $3.29!</p>
+    </div>
+
+    <!-- Menu 5 -->
+    <div class="icon-text5">
+        
+    </div>
+
+    <!-- Menu 6 -->
+    <div class="icon-text6">
+
+    </div>
+
+    <!-- Menu 7 -->
+    <div class="icon-text7">
+
+    </div>
+
+    <!-- Menu 8 -->
+    <div class="icon-text8">
+
+    </div>
+
+    <!-- Offer of the week  -->
+    <h2 class="sub-head2">Offer of the week!</h2>
+
+    <div class="offer">
+        <img src="pizza.png" alt="Pizza" class="icon5">
+        <p class="pizza"><u class="ul3">Salami Pizza</u></p>
+        <p class="description6">A large pepperoni pizza with garlic and extra sauce.<br>You have never tried anything like this in your life!</p>
+        <a href="#" type="button" class="learn-more">Learn more ➝</a>
+    </div>
+
+        <!-- Join our Team -->
+        <section class="application">
+            <h1 class="app-heading"><u class="ul2">Join our Team!</u></h1>
+        </section>
+    
+        <form action="survey-form" method="post">
+    
+            <!-- Personal Details -->
+            <div class="fieldset1">
+                <fieldset>
+    
+                    <legend><b>Personal Details</b></legend>
+    
+                    <br>
+    
+                    <label for="name">Name:</label> &nbsp;
+                    <input type="text" id="name" placeholder="Enter Name" required>
+    
+                    <br><br>
+    
+                    <label for="address">Address:</label> &nbsp;
+                    <input type="text" id="address" placeholder="Enter Address" required>
+    
+                    <br><br>
+    
+                    <label for="email">Email:</label> &nbsp;
+                    <input type="email" id="email" placeholder="example@gmail.com" required>
+    
+                    <br><br>
+    
+                    <label for="number">Phone Number:</label> &nbsp;
+                    <input type="tel" id="number" placeholder="Enter Number" required>
+    
+                    <br><br>
+    
+                    <label for="birthday">Birthday:</label> &nbsp;
+                    <input type="date" id="birthday" required>
+    
+                    <br><br>
+    
+                    <label for="gender">Gender:</label>
+    
+                    <br><br>
+    
+                    <input type="radio" id="male" name="gender" required>
+                    <label for="male">Male</label>
+    
+                    <br>
+    
+                    <input type="radio" id="female" name="gender" required>
+                    <label for="female">Female</label>
+    
+                    <br>
+    
+                    <input type="radio" id="other" name="gender" required>
+                    <label for="other">Other</label>
+    
+                </fieldset>
+            </div>
+    
+            <br>
+    
+            <!-- Education and Politics -->
+    
+            <div class="fieldset2">
+                <fieldset>
+    
+                    <legend><b>Education & Politics</b></legend>
+    
+                    <label for="education">Education Level Completed:</label> &nbsp;
+                    <select>
+                        <option value="college">College</option>
+                        <option value="university">University</option>
+                        <option value="high-School">High-School</option>
+                        <option value="none">None</option>
+                    </select> &nbsp;
+    
+                    <label for="politics">Political Persuasion:</label> &nbsp;
+                    <select>
+                        <option value="left">Left Wing</option>
+                        <option value="right">Right Wing</option>
+                        <option value="conservative">Conservative</option>
+                        <option value="nazi">Nazi</option>
+                    </select>
+    
+                </fieldset>
+            </div>
+    
+            <br>
+    
+            <!-- Essay Section -->
+    
+            <div class="fieldset3">
+                <fieldset>
+    
+                    <legend><b>Essay Section</b></legend>
+    
+                    <label for="msg"></label>
+                    <p>How did you find out about us?</p>
+                    <textarea name="user_message" id="msg" cols="50" rows="5" placeholder="Enter your Text here"></textarea>
+    
+                    <br>
+    
+                    <label for="msg"></label>
+                    <p>Why do you want to work at JamEats?</p>
+                    <textarea name="user_massage" id="msg" cols="50" rows="5" placeholder="Enter your Text here"></textarea>
+    
+                    <br><br>
+    
+                    <label for="myfile">Please upload your Application, Resume and Certificates here:</label>
+                    <input type="file" id="myfile" name="myfile" accept=".pdf">
+    
+                </fieldset>
+            </div>
+    
+            <br>
+    
+            <div class="submit">
+                <button type="submit" id="submit">Send Your Application</button>
+            </div>
+    
+        </form>
+
+    <!-- Footer Section -->
+    <section id="footer">
+        <div class="footer container">
+            <div class="brand"><h1>Based Jamali</h1></div>
+            <h2>My Social Media Accounts</h2>
+            <div class="social-icon">
+                <div class="social-item">
+                    <a href="https://www.instagram.com/based.jm/"><img src="https://img.icons8.com/fluency/48/000000/instagram-new.png"/></a>
+                </div>
+
+                <div class="social-item">
+                    <a href="https://github.com/basedjamali"><img src="https://img.icons8.com/ios-glyphs/60/000000/github.png"/></a>
+                </div>
+
+                <div class="social-item">
+                    <a href="https://twitter.com/based_jm"><img src="https://img.icons8.com/color/48/000000/twitter--v1.png"/></a>
+                </div>
+
+                <div class="social-item">
+                    <a href="https://www.tiktok.com/@based.jm"><img src="https://img.icons8.com/color/48/000000/tiktok--v1.png"/></a>
+                </div>
+            </div>
+            <p class="copyright">Copyright © 2022 Jamali. All rights reserved</p>
+        </div>
+    </section>
+
+</body>
+</html>

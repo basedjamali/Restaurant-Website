@@ -1,0 +1,730 @@
+body {
+    background-color: rgb(178, 38, 178);
+}
+
+/* Styling for the Background Image */
+
+.image {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+}
+
+/* Styling the heading */
+
+.para-head {
+    background-color: rgba(0, 0, 0, 0.595);
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    width: 60%;
+    height: 60%;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+.heading {
+    position: absolute;
+    top: 7%;
+    left: 35%;
+    color: gold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+}
+
+.underline {
+    padding-bottom: 5px;
+    text-decoration: none;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.426);
+}
+
+.description1 {
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 10%;
+    right: 10%;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: white;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+
+.explore:hover {
+    color: white;
+    background-color: rgba(240, 128, 128, 0.735);
+}
+
+/* Styling the Icons */
+.sub-head1 {
+    position: absolute;
+    top: 700px;
+    left: 39%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3.5rem;
+    font-weight: 200;
+    color: white;
+}
+
+.ul2 {
+    padding-bottom: 5px;
+    text-decoration: none;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.426);
+}
+
+/* Menu 1*/
+
+.icon-text1 {
+    position: absolute;
+    top: 830px;
+    left: 25px;
+    width: 22%;
+    height: 28%;
+    border: 1px solid white;
+    background-color: white;
+    cursor: pointer;
+}
+
+.icon1 {
+    position: absolute;
+    top: 10px;
+    left: 115px;
+    height: 60px;
+    width: 60px;
+    margin: 0 5px;
+}
+
+.kebab {
+    position: absolute;
+    top: 50px; 
+    left: 127px;
+    font-family: cursive;
+    font-weight: 600;
+    color: rgb(33, 31, 31);
+}
+
+.ul {
+    padding-bottom: 2px;
+    text-decoration: none;
+    border-bottom: 2px solid black;
+}
+
+.description2 {
+    position: absolute;
+    text-align: center;
+    top: 90px;
+    left: 35px;
+    right: 35px;
+    color: grey;
+    font-family: cursive;
+    font-weight: 700;
+}
+
+/* Menu 2 */
+
+.icon-text2 {
+    position: absolute;
+    top: 830px;
+    left: 360px;
+    width: 22%;
+    height: 28%;
+    border: 1px solid white;
+    background-color: white;
+    cursor: pointer;
+}
+
+.icon2 {
+    position: absolute;
+    top: 10px;
+    left: 115px;
+    height: 50px;
+    width: 50px;
+    margin: 0 5px;
+}
+
+.rice {
+    position: absolute;
+    top: 53px; 
+    left: 130px;
+    font-family: cursive;
+    font-weight: 600;
+    color: rgb(33, 31, 31);
+}
+
+.description3 {
+    position: absolute;
+    text-align: center;
+    top: 90px;
+    left: 35px;
+    right: 35px;
+    color: grey;
+    font-family: cursive;
+    font-weight: 700;
+}
+
+/* Menu 3 */
+
+.icon-text3 {
+    position: absolute;
+    top: 830px;
+    left: 690px;
+    width: 22%;
+    height: 28%;
+    border: 1px solid white;
+    background-color: white;
+    cursor: pointer;
+}
+
+.icon3 {
+    position: absolute;
+    top: 10px;
+    left: 115px;
+    height: 50px;
+    width: 50px;
+    margin: 0 5px;
+}
+
+.baklava {
+    position: absolute;
+    top: 53px; 
+    left: 117px;
+    font-family: cursive;
+    font-weight: 600;
+    color: rgb(33, 31, 31);
+}
+
+.description4 {
+    position: absolute;
+    text-align: center;
+    top: 90px;
+    left: 35px;
+    right: 35px;
+    color: grey;
+    font-family: cursive;
+    font-weight: 700;
+}
+
+/* Menu 4 */
+
+.icon-text4 {
+    position: absolute;
+    top: 830px;
+    left: 1025px;
+    width: 22%;
+    height: 28%;
+    border: 1px solid white;
+    background-color: white;
+    cursor: pointer;
+}
+
+.icon4 {
+    position: absolute;
+    top: 10px;
+    left: 115px;
+    height: 50px;
+    width: 50px;
+    margin: 0 5px;
+}
+
+.burger {
+    position: absolute;
+    top: 53px; 
+    left: 120px;
+    font-family: cursive;
+    font-weight: 600;
+    color: rgb(33, 31, 31);
+}
+
+.description5 {
+    position: absolute;
+    text-align: center;
+    top: 90px;
+    left: 35px;
+    right: 35px;
+    color: grey;
+    font-family: cursive;
+    font-weight: 700;
+}
+
+/* Menu 5*/
+.icon-text5 {
+    position: absolute;
+    top: 1050px;
+    left: 25px;
+    width: 22%;
+    height: 28%;
+    border: 1px solid white;
+    background-color: white;
+    cursor: pointer;
+}
+
+.icon5 {
+    position: absolute;
+    top: 10px;
+    left: 115px;
+    height: 60px;
+    width: 60px;
+    margin: 0 5px;
+}
+
+.lasagne {
+    position: absolute;
+    top: 53px; 
+    left: 120px;
+    font-family: cursive;
+    font-weight: 600;
+    color: rgb(33, 31, 31);
+}
+
+.description6 {
+    position: absolute;
+    text-align: center;
+    top: 90px;
+    left: 35px;
+    right: 35px;
+    color: grey;
+    font-family: cursive;
+    font-weight: 700;
+}
+
+/* Menu 6*/
+.icon-text6 {
+    position: absolute;
+    top: 1050px;
+    left: 360px;
+    width: 22%;
+    height: 28%;
+    border: 1px solid white;
+    background-color: white;
+    cursor: pointer;
+}
+
+.icon6 {
+    position: absolute;
+    top: 10px;
+    left: 115px;
+    height: 60px;
+    width: 60px;
+    margin: 0 5px;
+}
+
+.lasagne {
+    position: absolute;
+    top: 53px; 
+    left: 120px;
+    font-family: cursive;
+    font-weight: 600;
+    color: rgb(33, 31, 31);
+}
+
+.description7 {
+    position: absolute;
+    text-align: center;
+    top: 90px;
+    left: 35px;
+    right: 35px;
+    color: grey;
+    font-family: cursive;
+    font-weight: 700;
+}
+
+/* Menu 7*/
+.icon-text7 {
+    position: absolute;
+    top: 1050px;
+    left: 690px;
+    width: 22%;
+    height: 28%;
+    border: 1px solid white;
+    background-color: white;
+    cursor: pointer;
+}
+
+.icon7 {
+    position: absolute;
+    top: 10px;
+    left: 115px;
+    height: 60px;
+    width: 60px;
+    margin: 0 5px;
+}
+
+.lasagne {
+    position: absolute;
+    top: 53px; 
+    left: 120px;
+    font-family: cursive;
+    font-weight: 600;
+    color: rgb(33, 31, 31);
+}
+
+.description8 {
+    position: absolute;
+    text-align: center;
+    top: 90px;
+    left: 35px;
+    right: 35px;
+    color: grey;
+    font-family: cursive;
+    font-weight: 700;
+}
+
+/* Menu 8*/
+.icon-text8 {
+    position: absolute;
+    top: 1050px;
+    left: 1025px;
+    width: 22%;
+    height: 28%;
+    border: 1px solid white;
+    background-color: white;
+    cursor: pointer;
+}
+
+.icon8 {
+    position: absolute;
+    top: 10px;
+    left: 115px;
+    height: 60px;
+    width: 60px;
+    margin: 0 5px;
+}
+
+.lasagne {
+    position: absolute;
+    top: 53px; 
+    left: 120px;
+    font-family: cursive;
+    font-weight: 600;
+    color: rgb(33, 31, 31);
+}
+
+.description9 {
+    position: absolute;
+    text-align: center;
+    top: 90px;
+    left: 35px;
+    right: 35px;
+    color: grey;
+    font-family: cursive;
+    font-weight: 700;
+}
+
+/* Offer of the week  */
+
+
+.sub-head2 {
+    position: absolute;
+    top: 1350px;
+    left: 36%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3.5rem;
+    font-weight: 200;
+    color: gold;
+}
+
+.offer {
+    position: absolute;
+    top: 1470px;
+    left: 50px;
+    width: 92%;
+    height: 60%;
+    border: 1px solid white;
+    background-color: white;
+}
+
+.icon5 {
+    position: absolute;
+    top: 80px;
+    left: 110px;
+    height: 250px;
+    width: 250px;
+    margin: 0 5px;
+}
+
+.pizza {
+    position: absolute;
+    top: 100px; 
+    left: 450px;
+    font-size: 25px;
+    font-family: cursive;
+    font-weight: bold;
+    color: brown;
+}
+
+.ul3 {
+    padding-bottom: 5px;
+    text-decoration: none;
+    border-bottom: 3px solid goldenrod;
+}
+
+.description6 {
+    position: absolute;
+    text-align: center;
+    top: 165px;
+    left: 105px;
+    right: 35px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: .2px;
+    line-height: 30px;
+}
+
+.learn-more {
+    position: absolute;
+    top: 250px;
+    left: 450px;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: gold;
+    font-size: .8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    letter-spacing: .5px;
+    margin-top: 10px;
+    transition: .6s ease;
+    transition-property: background-color, color;
+}
+
+/* Application Section */
+
+.app-heading {
+    position: absolute;
+    top: 1980px;
+    left: 510px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3.5rem;
+    font-weight: 200;
+    color: white;
+}
+
+form {
+    position: absolute;
+    top: 2150px;
+    left: 170px;
+    width: 75%;
+    height: 1120px;
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+    background-color: rgb(255, 226, 231);
+    font-family: 'Anaheim', sans-serif;
+    font-size: 1.2em;
+}
+
+fieldset {
+    border-radius: 10px;
+}
+
+.fieldset1 {
+    position: absolute;
+    width: 90%;
+    top: 30px;
+    left: 55px;
+}
+
+.fieldset2 {
+    width: 90%;
+    position: absolute;
+    left: 55px;
+    top: 510px;
+}
+
+.fieldset3 {
+    width: 90%;
+    position: absolute;
+    left: 55px;
+    top: 610px;
+}
+
+.submit {
+    position: absolute;
+    top: 1050px;
+    left: 400px;
+}
+
+/* Styling */
+
+#name {
+    height: 5px;
+    border: 1px solid #DDDFE2;
+    border-radius: 5px;
+    padding: 13px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 13px;
+}
+
+#name:hover {
+    background-color: rgb(235, 230, 230);
+    transition: .2s ease;
+}
+
+#address {
+    height: 5px;
+    border: 1px solid #DDDFE2;
+    border-radius: 5px;
+    padding: 13px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 15px;
+}
+
+#address:hover {
+    background-color: rgb(235, 230, 230);
+    transition: .2s ease;
+}
+
+#email {
+    height: 5px;
+    border: 1px solid #DDDFE2;
+    border-radius: 5px;
+    padding: 13px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 15px;
+}
+
+#email:hover {
+    background-color: rgb(235, 230, 230);
+    transition: .2s ease;
+}
+
+#number {
+    height: 5px;
+    border: 1px solid #DDDFE2;
+    border-radius: 5px;
+    padding: 13px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 15px;
+}
+
+#number:hover {
+    background-color: rgb(235, 230, 230);
+    transition: .2s ease;
+}
+
+#birthday {
+    height: 5px;
+    border: 1px solid #DDDFE2;
+    border-radius: 5px;
+    padding: 13px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 15px;
+}
+
+select {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 20px;
+    height: 35px;
+    width: 135px;
+    border-radius: 3px solid gray;
+}
+
+#msg {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 20px;
+    height: 85px;
+    width: 350px;
+    border-radius: 3px solid gray;
+}
+
+#submit {
+    color: white;
+    background: rgb(225, 58, 58);
+    width: 230px;
+    border-radius: 7px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* Footer Section */
+
+/* Footer Section */
+#footer {
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    position: absolute;
+    top: 3400px;
+    left: 0;
+    height: 315px;
+    width: 1349px;
+    text-align: center;
+    justify-content: center;
+}
+
+.footer {
+    min-height: 200px;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.brand h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: gold;
+    padding: 5px;
+}
+
+h2 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.social-icon {
+    display: flex;
+    margin-bottom: 30px;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.social-item {
+    height: 50px;
+    width: 50px;
+    margin: 0 5px;
+}
+
+.social-item img {
+    filter: grayscale(1);
+    transition: .3s ease filter;
+}
+
+.social-item:hover img {
+    filter: grayscale(0);
+}
+
+.copyright {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: .9rem;
+    position: absolute;
+    top: 270px;
+    left: 520px;
+    letter-spacing: .4px;
+    word-spacing: 1px;
+}
